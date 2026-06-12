@@ -1,4 +1,4 @@
-/* Kaitlyn Cheng — portfolio interactions */
+/* Kaitlyn Cheng · portfolio interactions */
 (function () {
   'use strict';
 
@@ -31,15 +31,20 @@
   }, 60);
 
   /* ----- scroll reveal (text blocks, curtains, staggered grids) ----- */
-  var revealer = new IntersectionObserver(function (entries) {
-    entries.forEach(function (entry) {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        revealer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.12, rootMargin: '0px 0px -4% 0px' });
-  document.querySelectorAll('.reveal, .curtain, .stagger').forEach(function (el) { revealer.observe(el); });
+  var revealTargets = document.querySelectorAll('.reveal, .curtain, .stagger');
+  if ('IntersectionObserver' in window) {
+    var revealer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -4% 0px' });
+    revealTargets.forEach(function (el) { revealer.observe(el); });
+  } else {
+    revealTargets.forEach(function (el) { el.classList.add('visible'); });
+  }
 
   /* ----- scroll progress line ----- */
   var progress = document.getElementById('progress');
