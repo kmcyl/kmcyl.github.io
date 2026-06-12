@@ -123,14 +123,20 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.08; }
 }
 .hero h1 em { font-style: italic; color: var(--ink-soft); }
 
-/* masked line reveal on load (hidden states only apply when JS runs) */
-.line { display: block; overflow: hidden; }
+/* masked line reveal on load (hidden states only apply when JS runs).
+   Padding + negative margin give RoxboroughCF's tall ascenders and deep
+   descenders room inside the overflow mask so glyphs are not cut off. */
+.line {
+  display: block; overflow: hidden;
+  padding: .18em .1em .22em;
+  margin: -.18em -.1em -.22em;
+}
 .line-in {
   display: inline-block;
   transition: transform 1s var(--ease) .15s;
 }
 .line-in.d1 { transition-delay: .3s; }
-.js .line-in { transform: translateY(115%); }
+.js .line-in { transform: translateY(140%); }
 .js body.loaded .line-in { transform: none; }
 .hero-sub { max-width: 32rem; color: var(--ink-soft); margin-bottom: 2.4rem; }
 .hero-cta {
