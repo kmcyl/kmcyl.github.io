@@ -30,6 +30,11 @@
         "h":  768
     },
     {
+        "name":  "core1-brief.jpg",
+        "w":  1658,
+        "h":  1106
+    },
+    {
         "name":  "core2-axo-section.jpg",
         "w":  2000,
         "h":  2000
@@ -50,6 +55,11 @@
         "h":  1800
     },
     {
+        "name":  "core2-neg-top.jpg",
+        "w":  960,
+        "h":  1280
+    },
+    {
         "name":  "core2-pos-axo.jpg",
         "w":  1800,
         "h":  1800
@@ -58,6 +68,11 @@
         "name":  "core2-pos-top.jpg",
         "w":  1800,
         "h":  1800
+    },
+    {
+        "name":  "core2-brief.jpg",
+        "w":  2200,
+        "h":  1007
     },
     {
         "name":  "core3-plan.jpg",
@@ -70,9 +85,34 @@
         "h":  2000
     },
     {
-        "name":  "core3-model.jpg",
+        "name":  "core3-model-1.jpg",
         "w":  1800,
         "h":  1800
+    },
+    {
+        "name":  "core3-model-2.jpg",
+        "w":  1800,
+        "h":  1800
+    },
+    {
+        "name":  "core3-model-3.jpg",
+        "w":  1800,
+        "h":  1800
+    },
+    {
+        "name":  "core3-model-4.jpg",
+        "w":  1800,
+        "h":  1800
+    },
+    {
+        "name":  "core3-brief-1.jpg",
+        "w":  1602,
+        "h":  1112
+    },
+    {
+        "name":  "core3-brief-2.jpg",
+        "w":  1724,
+        "h":  1070
     },
     {
         "name":  "core4-model.jpg",
@@ -83,6 +123,26 @@
         "name":  "core4-section-model.jpg",
         "w":  1800,
         "h":  1800
+    },
+    {
+        "name":  "core4-drawing.jpg",
+        "w":  1206,
+        "h":  1706
+    },
+    {
+        "name":  "core4-site-1.jpg",
+        "w":  960,
+        "h":  1280
+    },
+    {
+        "name":  "core4-site-2.jpg",
+        "w":  1280,
+        "h":  960
+    },
+    {
+        "name":  "core4-site-3.jpg",
+        "w":  1280,
+        "h":  960
     },
     {
         "name":  "canopy-1.jpg",
@@ -148,6 +208,21 @@
         "name":  "lattice-2.jpg",
         "w":  1280,
         "h":  961
+    },
+    {
+        "name":  "spatial1-plan.jpg",
+        "w":  2000,
+        "h":  2000
+    },
+    {
+        "name":  "spatial2-iso.jpg",
+        "w":  2000,
+        "h":  2000
+    },
+    {
+        "name":  "spatial3-exterior.jpg",
+        "w":  2000,
+        "h":  2000
     },
     {
         "name":  "dwelling-axo.jpg",
@@ -240,11 +315,6 @@
         "h":  1800
     },
     {
-        "name":  "bangkok-9.jpg",
-        "w":  1350,
-        "h":  1800
-    },
-    {
         "name":  "bangkok-10.jpg",
         "w":  1350,
         "h":  1800
@@ -253,6 +323,21 @@
         "name":  "bangkok-11.jpg",
         "w":  1800,
         "h":  1350
+    },
+    {
+        "name":  "bangkok-12.jpg",
+        "w":  960,
+        "h":  1280
+    },
+    {
+        "name":  "bangkok-13.jpg",
+        "w":  960,
+        "h":  1280
+    },
+    {
+        "name":  "bangkok-14.jpg",
+        "w":  960,
+        "h":  1280
     },
     {
         "name":  "surabaya-1.jpg",
