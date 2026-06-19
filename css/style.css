@@ -223,6 +223,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.08; }
 .thumbs img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s var(--ease); }
 .thumbs a:hover img, .thumbs a:focus-visible img { transform: scale(1.08); }
 .thumbs figure.frame-gif { cursor: default; }
+.proj-media .gif-main { margin-top: .8rem; }
 
 .hidden-links { display: none; }
 

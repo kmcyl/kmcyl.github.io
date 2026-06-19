@@ -74,6 +74,11 @@ $map = @(
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 4\site visit (1).jpg"; d = "core4-site-1.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 4\site visit (2).jpg"; d = "core4-site-2.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 4\site visit (3).jpg"; d = "core4-site-3.jpg" }
+    # Rendered hero images for Flow and Eclipse main pictures
+    @{ s = "$pics\Showcased Archi Projects\2.png"; d = "core1-main.jpg"; m = 2000 }
+    @{ s = "$pics\Showcased Archi Projects\1.png"; d = "core2-main.jpg"; m = 2000 }
+    # crochet-1..7.jpg (Hooked section) are processed with EXIF-aware rotation
+    # from "Others\Personal Pictures\crochet" outside this map.
     # Structures / DDF
     @{ s = "$pics\Showcased Archi Projects\structures_ddf\canopy\photo_6152020278037385600_y.jpg"; d = "canopy-1.jpg" }
     @{ s = "$pics\Showcased Archi Projects\structures_ddf\canopy\photo_6152020278037385601_y.jpg"; d = "canopy-2.jpg" }
