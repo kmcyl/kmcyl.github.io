@@ -438,5 +438,30 @@
         "name":  "orientation-5.jpg",
         "w":  1280,
         "h":  853
+    },
+    {
+        "name":  "sketch-1.jpg",
+        "w":  1800,
+        "h":  1267
+    },
+    {
+        "name":  "sketch-2.jpg",
+        "w":  1800,
+        "h":  1299
+    },
+    {
+        "name":  "sketch-3.jpg",
+        "w":  1800,
+        "h":  1304
+    },
+    {
+        "name":  "sketch-4.jpg",
+        "w":  1187,
+        "h":  1800
+    },
+    {
+        "name":  "sketch-5.jpg",
+        "w":  1537,
+        "h":  1800
     }
 ]
