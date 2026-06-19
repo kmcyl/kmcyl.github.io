@@ -49,7 +49,7 @@ $map = @(
     @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\(1) ex 1 drawing axo.png";       d = "core1-axo.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\ex 1 formas ai render 1.jpg";    d = "core1-render-1.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\ex 1 formas ai render 2.jpg";    d = "core1-render-2.jpg" }
-    @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\ex 1 brief.png";                 d = "core1-brief.jpg"; m = 2000 }
+    # brief removed from site gallery: @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\ex 1 brief.png"; d = "core1-brief.jpg"; m = 2000 }
     # Core Studio Ex 2
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 2\(1) ex 2 drawing axo section.png"; d = "core2-axo-section.jpg"; m = 2200 }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 2\ex 2 formas ai render.jpg";       d = "core2-render.jpg" }
@@ -58,7 +58,7 @@ $map = @(
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 2\ex 2 negative model top.jpg";     d = "core2-neg-top.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 2\ex 2 positive model axo.png";     d = "core2-pos-axo.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 2\ex 2 positive model top.png";     d = "core2-pos-top.jpg" }
-    @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 2\exercise 2 design brief.png";     d = "core2-brief.jpg"; m = 2200 }
+    # brief removed from site gallery: @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 2\exercise 2 design brief.png"; d = "core2-brief.jpg"; m = 2200 }
     # Core Studio Ex 3
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 3\(1) ex 3 drawing floor plan.png"; d = "core3-plan.jpg"; m = 2200 }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 3\(2) ex 3 drawing section.png";    d = "core3-section.jpg"; m = 2200 }
@@ -66,8 +66,7 @@ $map = @(
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 3\21.png"; d = "core3-model-2.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 3\22.png"; d = "core3-model-3.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 3\23.png"; d = "core3-model-4.jpg" }
-    @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 3\ex 3 brief (1).png"; d = "core3-brief-1.jpg"; m = 2000 }
-    @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 3\ex 3 brief (2).png"; d = "core3-brief-2.jpg"; m = 2000 }
+    # briefs removed from site gallery: @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 3\ex 3 brief (1).png"; d = "core3-brief-1.jpg"; m = 2000 } and ex 3 brief (2).png -> core3-brief-2.jpg
     # Core Studio Ex 4
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 4\ex 4 model photos.png";         d = "core4-model.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 4\ex 4 section model photos.png"; d = "core4-section-model.jpg" }
