@@ -168,6 +168,7 @@ Copy-Item "$pics\Spatial Design World\ex 1\ezgif.com-speed.gif" (Join-Path $out 
 Copy-Item "$pics\Spatial Design World\ex 2\Untitled (800 x 800 px) (1).gif" (Join-Path $out "spatial2-anim.gif") -Force
 # Urban sketching images (sketch-1..5.jpg) are rendered from "urban sketching\Scanned Documents.pdf"
 # via Windows.Data.Pdf (pages 1-3 rotated 90 CCW), handled outside this System.Drawing pipeline.
+# hero-cover.jpg is rendered the same way from "Showcased Archi Projects\portfolio image.pdf".
 Copy-Item "$pics\Spatial Design World\ex 1 floor plan.pdf" (Join-Path $pdfOut "spatial-ex1-floor-plan.pdf") -Force
 Copy-Item "$pics\Spatial Design World\ex 2 iso interior drawing.pdf" (Join-Path $pdfOut "spatial-ex2-iso-interior.pdf") -Force
 Copy-Item "$pics\Spatial Design World\ex 3 axo drawing.pdf" (Join-Path $pdfOut "spatial-ex3-axo-drawing.pdf") -Force

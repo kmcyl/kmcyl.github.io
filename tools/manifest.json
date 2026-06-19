@@ -508,5 +508,10 @@
         "name":  "crochet-7.jpg",
         "w":  947,
         "h":  1256
+    },
+    {
+        "name":  "hero-cover.jpg",
+        "w":  1200,
+        "h":  1600
     }
 ]
