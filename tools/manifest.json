@@ -15,11 +15,6 @@
         "h":  1800
     },
     {
-        "name":  "core1-axo.jpg",
-        "w":  1660,
-        "h":  1656
-    },
-    {
         "name":  "core1-render-1.jpg",
         "w":  1024,
         "h":  1024
@@ -28,11 +23,6 @@
         "name":  "core1-render-2.jpg",
         "w":  1376,
         "h":  768
-    },
-    {
-        "name":  "core2-axo-section.jpg",
-        "w":  2000,
-        "h":  2000
     },
     {
         "name":  "core2-render.jpg",
@@ -475,7 +465,7 @@
         "h":  2000
     },
     {
-        "name":  "crochet-1.jpg",
+        "name":  "crochet-bag.jpg",
         "w":  1280,
         "h":  960
     },

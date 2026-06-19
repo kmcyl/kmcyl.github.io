@@ -46,12 +46,12 @@ $map = @(
     @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\ex 1 model view axo.png";        d = "core1-model-axo.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\ex 1 model view top.png";        d = "core1-model-top.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\ex 1 model folding process.png"; d = "core1-process.jpg" }
-    @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\(1) ex 1 drawing axo.png";       d = "core1-axo.jpg" }
+    # duplicate of core1-main, removed from deck: @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\(1) ex 1 drawing axo.png"; d = "core1-axo.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\ex 1 formas ai render 1.jpg";    d = "core1-render-1.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\ex 1 formas ai render 2.jpg";    d = "core1-render-2.jpg" }
     # brief removed from site gallery: @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\ex 1 brief.png"; d = "core1-brief.jpg"; m = 2000 }
     # Core Studio Ex 2
-    @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 2\(1) ex 2 drawing axo section.png"; d = "core2-axo-section.jpg"; m = 2200 }
+    # duplicate of core2-main, removed from deck: @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 2\(1) ex 2 drawing axo section.png"; d = "core2-axo-section.jpg"; m = 2200 }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 2\ex 2 formas ai render.jpg";       d = "core2-render.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 2\ex 2 negative model axo.png";     d = "core2-neg-axo.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 2\ex 2 negative model section.png"; d = "core2-neg-section.jpg" }
