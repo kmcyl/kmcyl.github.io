@@ -186,6 +186,14 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.08; }
   font-size: .7rem; letter-spacing: .2em; text-transform: uppercase;
   color: var(--bronze); margin-bottom: .7rem;
 }
+/* editorial credits stack for Collections projects */
+.proj-credits { margin-bottom: 1.2rem; }
+.proj-credits span {
+  display: block;
+  font-size: .68rem; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--ink-soft); line-height: 1.85;
+}
+.proj-credits span:first-child { color: var(--bronze); }
 .proj h3 { font-size: clamp(1.9rem, 3.6vw, 2.7rem); margin-bottom: 1rem; }
 .proj-sub { font-size: .5em; font-style: italic; color: var(--ink-soft); }
 .proj-text p:not(.proj-meta):not(.award-tag) { color: var(--ink-soft); max-width: 34rem; }
