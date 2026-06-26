@@ -66,6 +66,7 @@ $map = @(
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 3\21.png"; d = "core3-model-2.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 3\22.png"; d = "core3-model-3.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 3\23.png"; d = "core3-model-4.jpg" }
+    @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 3\new folder\EXPERIMENT WITH SHAPES.png"; d = "core3-experiment.jpg"; m = 1500 }
     # briefs removed from site gallery: @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 3\ex 3 brief (1).png"; d = "core3-brief-1.jpg"; m = 2000 } and ex 3 brief (2).png -> core3-brief-2.jpg
     # Core Studio Ex 4
     @{ s = "$pics\Showcased Archi Projects\core studio\Core studio ex 4\ex 4 model photos.png";         d = "core4-model.jpg" }
@@ -166,6 +167,8 @@ $pdfOut = Join-Path $root "website\assets\pdf"
 New-Item -ItemType Directory -Force $pdfOut | Out-Null
 Copy-Item "$pics\Spatial Design World\ex 1\ezgif.com-speed.gif" (Join-Path $out "spatial1-anim.gif") -Force
 Copy-Item "$pics\Spatial Design World\ex 2\Untitled (800 x 800 px) (1).gif" (Join-Path $out "spatial2-anim.gif") -Force
+Copy-Item "$pics\Showcased Archi Projects\core studio\Core studio ex 3\new folder\CHANGING SIZE.gif" (Join-Path $out "core3-changing.gif") -Force
+# core3-zones.jpg is rendered from "Core studio ex 3\new folder\ZONES.pdf" via Windows.Data.Pdf, outside this pipeline.
 # Urban sketching images (sketch-1..5.jpg) are rendered from "urban sketching\Scanned Documents.pdf"
 # via Windows.Data.Pdf (pages 1-3 rotated 90 CCW), handled outside this System.Drawing pipeline.
 # hero-cover.jpg is rendered the same way from "Showcased Archi Projects\portfolio image.pdf".

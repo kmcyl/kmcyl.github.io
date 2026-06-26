@@ -503,5 +503,15 @@
         "name":  "hero-cover.jpg",
         "w":  1200,
         "h":  1600
+    },
+    {
+        "name":  "core3-experiment.jpg",
+        "w":  1500,
+        "h":  1500
+    },
+    {
+        "name":  "core3-zones.jpg",
+        "w":  1500,
+        "h":  1500
     }
 ]
