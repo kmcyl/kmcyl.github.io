@@ -254,7 +254,13 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.08; }
 }
 .pdf-list a:hover, .pdf-list a:focus-visible { padding-left: .7rem; color: var(--bronze); }
 
-/* ---------- expanded case study (Gardenáf) ---------- */
+/* faded background image behind a project section (set --bg inline) */
+.proj-bg {
+  --veil: rgba(247, 244, 238, .86);
+  background: linear-gradient(var(--veil), var(--veil)), var(--bg) center / cover no-repeat;
+}
+
+/* ---------- expanded case study (Gardenáf, Flow) ---------- */
 .proj-case {
   padding: clamp(2.6rem, 5vw, 4.5rem) 0;
   border-top: 1px solid var(--line);
@@ -282,7 +288,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.08; }
   margin: clamp(2.2rem, 4vw, 3.2rem) 0 1.2rem;
   padding-top: 1.2rem; border-top: 1px solid var(--line);
 }
-.case-process { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(1rem, 2vw, 1.6rem); }
+.case-process { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: clamp(1rem, 2vw, 1.6rem); }
 .case-fig { display: flex; flex-direction: column; margin: 0; }
 .case-fig figcaption { margin-top: .7rem; }
 .fig-label {
@@ -291,7 +297,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.08; }
 }
 .fig-cap { display: block; font-size: .85rem; color: var(--ink-soft); line-height: 1.55; }
 .case-drawings { display: grid; grid-template-columns: 2fr 1fr; gap: .9rem; align-items: start; margin-bottom: .9rem; }
-.case-models { display: grid; grid-template-columns: repeat(4, 1fr); gap: .9rem; }
+.case-models { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: .9rem; }
 
 @media (max-width: 980px) {
   .case-head { grid-template-columns: 1fr; }

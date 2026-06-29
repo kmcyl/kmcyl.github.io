@@ -45,7 +45,11 @@ $map = @(
     # Core Studio Ex 1
     @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\ex 1 model view axo.png";        d = "core1-model-axo.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\ex 1 model view top.png";        d = "core1-model-top.jpg" }
-    @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\ex 1 model folding process.png"; d = "core1-process.jpg" }
+    # folding process, individual steps (EXIF-rotated, maxEdge 1400)
+    @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\cut.png";           d = "core1-cut.jpg"; m = 1400 }
+    @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\lift and fold.png"; d = "core1-liftfold.jpg"; m = 1400 }
+    @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\pinch.png";         d = "core1-pinch.jpg"; m = 1400 }
+    @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\pull.png";          d = "core1-pull.jpg"; m = 1400 }
     # duplicate of core1-main, removed from deck: @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\(1) ex 1 drawing axo.png"; d = "core1-axo.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\ex 1 formas ai render 1.jpg";    d = "core1-render-1.jpg" }
     @{ s = "$pics\Showcased Archi Projects\core studio\Core Studio Ex 1\ex 1 formas ai render 2.jpg";    d = "core1-render-2.jpg" }

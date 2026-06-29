@@ -10,9 +10,24 @@
         "h":  1800
     },
     {
-        "name":  "core1-process.jpg",
-        "w":  1800,
-        "h":  1800
+        "name":  "core1-cut.jpg",
+        "w":  1400,
+        "h":  1400
+    },
+    {
+        "name":  "core1-liftfold.jpg",
+        "w":  1400,
+        "h":  1400
+    },
+    {
+        "name":  "core1-pinch.jpg",
+        "w":  1400,
+        "h":  1400
+    },
+    {
+        "name":  "core1-pull.jpg",
+        "w":  1400,
+        "h":  1400
     },
     {
         "name":  "core1-render-1.jpg",
