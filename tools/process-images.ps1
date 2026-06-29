@@ -169,7 +169,7 @@ foreach ($item in $map) {
 # copy GIF and PDFs as-is
 $pdfOut = Join-Path $root "website\assets\pdf"
 New-Item -ItemType Directory -Force $pdfOut | Out-Null
-Copy-Item "$pics\Spatial Design World\ex 1\ezgif.com-speed.gif" (Join-Path $out "spatial1-anim.gif") -Force
+Copy-Item "$pics\Spatial Design World\ex 1\Untitled design (1).gif" (Join-Path $out "spatial1-anim.gif") -Force
 Copy-Item "$pics\Spatial Design World\ex 2\Untitled (800 x 800 px) (1).gif" (Join-Path $out "spatial2-anim.gif") -Force
 Copy-Item "$pics\Showcased Archi Projects\core studio\Core studio ex 3\new folder\CHANGING SIZE.gif" (Join-Path $out "core3-changing.gif") -Force
 # core3-zones.jpg is rendered from "Core studio ex 3\new folder\ZONES.pdf" via Windows.Data.Pdf, outside this pipeline.

@@ -256,8 +256,15 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.08; }
 
 /* faded background image behind a project section (set --bg inline) */
 .proj-bg {
-  --veil: rgba(247, 244, 238, .86);
+  --veil: rgba(247, 244, 238, .55);
   background: linear-gradient(var(--veil), var(--veil)), var(--bg) center / cover no-repeat;
+}
+/* keep text legible over the more visible background */
+.proj-bg .case-headline,
+.proj-bg .case-kicker,
+.proj-bg .case-fig figcaption,
+.proj-bg .proj-text {
+  text-shadow: 0 0 6px var(--ivory), 0 0 6px var(--ivory);
 }
 
 /* ---------- expanded case study (Gardenáf, Flow) ---------- */
