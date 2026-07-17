@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kaitlyn Cheng · Selected Works · A4</title>
+<style>
+@font-face {
+  font-family: 'RoxboroughCF';
+  src: url('../assets/fonts/RoxboroughCF.ttf') format('truetype');
+  font-weight: 400; font-style: normal;
+}
+@page { size: A4 portrait; margin: 12mm; }
+
+:root {
+  --ivory: #f7f4ee;
+  --ink: #1a1816;
+  --ink-soft: #5b554d;
+  --line: #ddd5c8;
+  --bronze: #8a6f4d;
+  --serif: 'RoxboroughCF', Georgia, serif;
+  --sans: 'Segoe UI', Inter, Arial, sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  background: var(--ivory);
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+img { display: block; }
+
+.sheet {
+  width: 186mm; height: 273mm;
+  page-break-after: always; break-after: page;
+  overflow: hidden;
+  display: flex; flex-direction: column; gap: 5mm;
+  background: var(--ivory);
+}
+.sheet:last-child { page-break-after: auto; break-after: auto; }
+
+/* header */
+.sh-head {
+  display: flex; gap: 6mm; align-items: flex-start;
+  border-bottom: 0.4mm solid var(--line); padding-bottom: 3mm;
+}
+.sh-no {
+  font-family: var(--serif); font-style: italic;
+  font-size: 34pt; line-height: .9; color: var(--line);
+}
+.sh-title { padding-top: 1mm; }
+.sh-title h1 { font-family: var(--serif); font-weight: 400; font-size: 21pt; line-height: 1.05; }
+.sh-title .sub { font-family: var(--serif); font-style: italic; font-size: 11pt; color: var(--ink-soft); }
+.sh-credits { margin-top: 2mm; }
+.sh-credits span {
+  display: block; font-size: 6pt; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--ink-soft); line-height: 1.7;
+}
+.sh-credits span:first-child { color: var(--bronze); }
+
+/* intro: hero + description */
+.sh-intro { display: flex; gap: 6mm; align-items: flex-start; }
+.sh-hero { flex: 0 0 100mm; }
+.sh-hero img {
+  width: 100%; height: 100mm; object-fit: contain;
+  background: #fff; border: 0.3mm solid var(--line);
+}
+.sh-desc { font-size: 8.6pt; line-height: 1.62; color: var(--ink-soft); }
+
+/* client card */
+.sh-client {
+  border: 0.3mm solid var(--line); background: #efeae0;
+  padding: 4mm 5mm;
+}
+.sh-client .lbl {
+  font-size: 6pt; letter-spacing: .18em; text-transform: uppercase;
+  color: var(--bronze); margin-bottom: 2mm;
+}
+.sh-client p { font-family: var(--serif); font-style: italic; font-size: 8.4pt; line-height: 1.55; color: var(--ink); }
+
+/* captioned process strip */
+.sh-strip { display: grid; grid-template-columns: repeat(var(--cols, 4), 1fr); gap: 3mm; }
+.sh-strip figure img {
+  width: 100%; height: var(--fh, 42mm); object-fit: contain;
+  background: #fff; border: 0.3mm solid var(--line);
+}
+.sh-strip figcaption { margin-top: 1.5mm; }
+.sh-strip .fl {
+  display: block; font-size: 6pt; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--bronze); margin-bottom: .8mm;
+}
+.sh-strip .fc { display: block; font-size: 6.2pt; line-height: 1.4; color: var(--ink-soft); }
+
+/* plain image grid */
+.sh-grid { display: grid; grid-template-columns: repeat(var(--cols, 4), 1fr); gap: 3mm; }
+.sh-grid img {
+  width: 100%; height: var(--gh, 42mm); object-fit: contain;
+  background: #fff; border: 0.3mm solid var(--line);
+}
+
+/* one large image, centred with a tight border */
+.sh-big { display: flex; justify-content: center; }
+.sh-big img {
+  width: auto; max-width: 100%; height: var(--bh, 120mm); object-fit: contain;
+  background: #fff; border: 0.3mm solid var(--line);
+}
+
+.sh-foot {
+  margin-top: auto; padding-top: 2.5mm; border-top: 0.3mm solid var(--line);
+  display: flex; justify-content: space-between;
+  font-size: 5.6pt; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft);
+}
+</style>
+</head>
+<body>
+
+<!-- ============ 01 FLOW ============ -->
+<section class="sheet">
+  <header class="sh-head">
+    <span class="sh-no">01</span>
+    <div class="sh-title">
+      <h1>Flow</h1>
+      <div class="sh-credits">
+        <span>SUTD · Architecture Core Studio</span>
+        <span>Exercise 01 · Paper tectonics</span>
+        <span>One sheet, 250 × 250 mm</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="sh-intro">
+    <div class="sh-hero"><img src="../assets/img/core1-main.jpg" alt="Rendered axonometric of Flow"></div>
+    <p class="sh-desc">Flow begins with a single 250 mm sheet of paper and three permitted operations: cuts, folds and creases. The surface is divided into a field of strips whose widths drift wider toward one edge, then each strip is pushed to the limit of how many folds and splits one plane can carry. What results reads as topography: a folded terrain that ripples from tight pleats into open ground, generated entirely from one flat sheet. Scaled up, the same logic reads as a canopy of shifting light and shadow.</p>
+  </div>
+
+  <div class="sh-strip" style="--cols:4; --fh:40mm">
+    <figure>
+      <img src="../assets/img/core1-cut.jpg" alt="Cut">
+      <figcaption><span class="fl">Cut</span><span class="fc">Parallel slits are cut into the flat sheet, dividing it into a field of strips.</span></figcaption>
+    </figure>
+    <figure>
+      <img src="../assets/img/core1-liftfold.jpg" alt="Lift and fold">
+      <figcaption><span class="fl">Lift and fold</span><span class="fc">Each strip is lifted and folded back along its cut, pulling the plane into relief.</span></figcaption>
+    </figure>
+    <figure>
+      <img src="../assets/img/core1-pinch.jpg" alt="Pinch">
+      <figcaption><span class="fl">Pinch</span><span class="fc">Adjacent strips are pinched together to set sharp creases and lock the folds.</span></figcaption>
+    </figure>
+    <figure>
+      <img src="../assets/img/core1-pull.jpg" alt="Pull">
+      <figcaption><span class="fl">Pull</span><span class="fc">The strips are pulled into position, resolving into the rippled surface.</span></figcaption>
+    </figure>
+  </div>
+
+  <div class="sh-grid" style="--cols:4; --gh:42mm">
+    <img src="../assets/img/core1-model-axo.jpg" alt="Model, axonometric">
+    <img src="../assets/img/core1-model-top.jpg" alt="Model, top view">
+    <img src="../assets/img/core1-render-1.jpg" alt="Render in a forest">
+    <img src="../assets/img/core1-render-2.jpg" alt="Second render">
+  </div>
+
+  <div class="sh-foot"><span>Kaitlyn Cheng · Selected Works</span><span>01 · Flow</span></div>
+</section>
+
+<!-- ============ 02 ECLIPSE ============ -->
+<section class="sheet">
+  <header class="sh-head">
+    <span class="sh-no">02</span>
+    <div class="sh-title">
+      <h1>Eclipse</h1>
+      <div class="sh-credits">
+        <span>SUTD · Architecture Core Studio</span>
+        <span>Exercise 02 · Light &amp; section</span>
+        <span>Positive &amp; negative massing models</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="sh-intro">
+    <div class="sh-hero"><img src="../assets/img/core2-main.jpg" alt="Rendered section of Eclipse"></div>
+    <p class="sh-desc">Eclipse is an inhabitable void carved beneath a sweeping landform. Curved trapezoidal apertures open through the terrain above, each one tuned to draw daylight into the wide gathering space below. As the sun moves across the sky, the skylights cast slow, shifting crescents through the interior, turning the section itself into a kind of sundial. Developed through paired positive and negative models, the project treats emptiness, rather than mass, as its primary material.</p>
+  </div>
+
+  <div class="sh-grid" style="--cols:3; --gh:55mm">
+    <img src="../assets/img/core2-neg-axo.jpg" alt="Negative model, axonometric">
+    <img src="../assets/img/core2-neg-section.jpg" alt="Negative model, section">
+    <img src="../assets/img/core2-neg-top.jpg" alt="Negative model, top">
+    <img src="../assets/img/core2-pos-axo.jpg" alt="Positive model, axonometric">
+    <img src="../assets/img/core2-pos-top.jpg" alt="Positive model, top">
+    <img src="../assets/img/core2-render.jpg" alt="Atmospheric render">
+  </div>
+
+  <div class="sh-foot"><span>Kaitlyn Cheng · Selected Works</span><span>02 · Eclipse</span></div>
+</section>
+
+<!-- ============ 03 GARDENÁF (1/2) ============ -->
+<section class="sheet">
+  <header class="sh-head">
+    <span class="sh-no">03</span>
+    <div class="sh-title">
+      <h1>Gardenáf</h1>
+      <div class="sh-credits">
+        <span>SUTD · Architecture Core Studio</span>
+        <span>Exercise 03 · Geometry &amp; accessibility</span>
+        <span>Circle · Square · Equilateral triangle</span>
+        <span>Client · Retired gardener, 65</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="sh-intro">
+    <div class="sh-hero"><img src="../assets/img/core3-plan.jpg" alt="Floor plan of the cottage"></div>
+    <p class="sh-desc">Gardenáf answers a single client: a 65-year-old woman who has chosen a slower life around her garden and needs a home she can move through without stairs or strain. The plan is built from three primitives, a circle, a square and an equilateral triangle, then lifted into massing. The triangle anchors the composition while the circle and square shift in size and position until the figure resolves into four corner rooms around a central circle. That circle becomes the kitchen and the heart of the house, opening straight onto the garden, with every room reached from it on one level. The square is subtracted to leave a sheltered corner for parking, close at hand for limited mobility. Rigorous geometry, turned entirely toward care.</p>
+  </div>
+
+  <div class="sh-client">
+    <p class="lbl">The client</p>
+    <p>I'm 65, and I've chosen to live alone in a quiet cottage, away from the rush of the city. My hip isn't as strong as it was, so I move carefully and avoid stairs and long walks, but I'm determined to stay independent. Gardening gives my days structure: I tend my herbs and vegetables each morning and cook with what I've grown. On weekends my children and grandchildren visit, and I cook for them from my own harvest. The garden is my pride, my routine, and the heart of my home.</p>
+  </div>
+
+  <div class="sh-strip" style="--cols:3; --fh:52mm">
+    <figure>
+      <img src="../assets/img/core3-experiment.jpg" alt="Experiment with shapes">
+      <figcaption><span class="fl">Experiment with shapes</span><span class="fc">Nine quick compositions overlapping the circle, square and triangle; the highlighted arrangement is carried forward.</span></figcaption>
+    </figure>
+    <figure>
+      <img src="../assets/img/core3-changing.gif" alt="Changing size">
+      <figcaption><span class="fl">Changing size</span><span class="fc">Holding the triangle as the base, the circle and square change size and slide along each side until the proportions resolve.</span></figcaption>
+    </figure>
+    <figure>
+      <img src="../assets/img/core3-zones.jpg" alt="Zones">
+      <figcaption><span class="fl">Zones</span><span class="fc">The final figure splits into a room at each corner, all entered from the central circle, the kitchen, which opens to the garden. The subtracted square corner becomes covered parking.</span></figcaption>
+    </figure>
+  </div>
+
+  <div class="sh-foot"><span>Kaitlyn Cheng · Selected Works</span><span>03 · Gardenáf · 1/2</span></div>
+</section>
+
+<!-- ============ 03 GARDENÁF (2/2) ============ -->
+<section class="sheet">
+  <header class="sh-head">
+    <span class="sh-no">03</span>
+    <div class="sh-title">
+      <h1>Gardenáf <span class="sub">· section &amp; massing model</span></h1>
+      <div class="sh-credits">
+        <span>SUTD · Architecture Core Studio</span>
+        <span>Exercise 03 · Geometry &amp; accessibility</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="sh-big" style="--bh:150mm">
+    <img src="../assets/img/core3-section.jpg" alt="Section drawing of the cottage">
+  </div>
+
+  <div class="sh-grid" style="--cols:4; --gh:44mm">
+    <img src="../assets/img/core3-model-1.jpg" alt="Massing model, view one">
+    <img src="../assets/img/core3-model-2.jpg" alt="Massing model, view two">
+    <img src="../assets/img/core3-model-3.jpg" alt="Massing model, view three">
+    <img src="../assets/img/core3-model-4.jpg" alt="Massing model, view four">
+  </div>
+
+  <div class="sh-foot"><span>Kaitlyn Cheng · Selected Works</span><span>03 · Gardenáf · 2/2</span></div>
+</section>
+
+<!-- ============ 2.1 A CRAPPY SITUATION ============ -->
+<section class="sheet">
+  <header class="sh-head">
+    <span class="sh-no">2.1</span>
+    <div class="sh-title">
+      <h1>A Crappy Situation</h1>
+      <div class="sh-credits">
+        <span>SUTD · Spatial Design World</span>
+        <span>Exercise 1 · Floor plan</span>
+        <span>Modelled in Rhino</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="sh-intro">
+    <div class="sh-hero"><img src="../assets/img/spatial1-plan.jpg" alt="Floor plan"></div>
+    <p class="sh-desc">Exercise one asks for a floor plan of a house and the life lived inside it. Mine includes a dog. The plan documents what sharing a home with a pet actually involves, down to the daily negotiations over territory, while the animation makes the point directly: my dog, my garden, and a mess to clean up on a regular basis. A crappy situation, literally.</p>
+  </div>
+
+  <div class="sh-strip" style="--cols:2; --fh:80mm">
+    <figure>
+      <img src="../assets/img/spatial1-anim.gif" alt="Animation still">
+      <figcaption><span class="fl">Animation · still</span><span class="fc">A time-based vignette stepping through the dog's daily routine in the house, including the garden mishap the project is named for.</span></figcaption>
+    </figure>
+  </div>
+
+  <div class="sh-foot"><span>Kaitlyn Cheng · Selected Works</span><span>2.1 · A Crappy Situation</span></div>
+</section>
+
+<!-- ============ 2.2 TWO'S A CROWD ============ -->
+<section class="sheet">
+  <header class="sh-head">
+    <span class="sh-no">2.2</span>
+    <div class="sh-title">
+      <h1>Two's a Crowd</h1>
+      <div class="sh-credits">
+        <span>SUTD · Spatial Design World</span>
+        <span>Exercise 2 · Interior isometric</span>
+        <span>Modelled in Rhino</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="sh-intro">
+    <div class="sh-hero"><img src="../assets/img/spatial2-iso.jpg" alt="Interior isometric"></div>
+    <p class="sh-desc">Exercise two re-runs the same scenario in a tiny apartment room rather than a landed house. The interior isometric resolves the logistics in full: belongings hung on the wall and out of paw's reach, a step that lets the dog reach the bed, and a dedicated bed and toys so she has a space of her own. The animation works through how the room is packed and rearranged around her. Two residents, one room, every element earning its place.</p>
+  </div>
+
+  <div class="sh-strip" style="--cols:2; --fh:80mm">
+    <figure>
+      <img src="../assets/img/spatial2-anim.gif" alt="Animation still">
+      <figcaption><span class="fl">Animation · still</span><span class="fc">The transformation vignette: how the room is packed, hung and rearranged around the dog's needs.</span></figcaption>
+    </figure>
+  </div>
+
+  <div class="sh-foot"><span>Kaitlyn Cheng · Selected Works</span><span>2.2 · Two's a Crowd</span></div>
+</section>
+
+<!-- ============ 2.3 BLOCK AXONOMETRIC PERSPECTIVE ============ -->
+<section class="sheet">
+  <header class="sh-head">
+    <span class="sh-no">2.3</span>
+    <div class="sh-title">
+      <h1>Block Axonometric Perspective</h1>
+      <div class="sh-credits">
+        <span>SUTD · Spatial Design World</span>
+        <span>Exercise 3</span>
+        <span>Modelled in Rhino</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="sh-big" style="--bh:150mm">
+    <img src="../assets/img/spatial3-exterior.jpg" alt="Block axonometric drawing">
+  </div>
+
+  <p class="sh-desc">The final exercise zooms out from the room to the entire block. The brief: model the surrounding neighbourhood as a set of legible solids, cutting doors, windows, kerbs and street lines just deep enough to anchor the room in its urban fabric, then use colour to pick out a single slice so it reads against the muted city around it. Here that slice is my own apartment, a single shaded window marking exactly where the earlier room sits. Private interior and public city, finally drawn at one scale.</p>
+
+  <div class="sh-foot"><span>Kaitlyn Cheng · Selected Works</span><span>2.3 · Block Axonometric Perspective</span></div>
+</section>
+
+</body>
+</html>
